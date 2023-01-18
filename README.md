@@ -1,33 +1,6 @@
 # macOS 
 
-    + [The macOS system must allow only applications that have a valid digital signature to run.](#the-macos-system-must-allow-only-applications-that-have-a-valid-digital-signature-to-run)
-      - [Check Content](#check-content)
-    + [The macOS system must have the security assessment policy subsystem enabled.](#the-macos-system-must-have-the-security-assessment-policy-subsystem-enabled)
-      - [Check Content](#check-content-1)
-    + [The macOS system must not allow an unattended or automatic logon to the system.](#the-macos-system-must-not-allow-an-unattended-or-automatic-logon-to-the-system)
-      - [Check Content](#check-content-2)
-    + [The macOS system must set permissions on user home directories to prevent users from having access to read or modify another user's files.](#the-macos-system-must-set-permissions-on-user-home-directories-to-prevent-users-from-having-access-to-read-or-modify-another-user-s-files)
-      - [Check Content](#check-content-3)
-    + [The macOS system must authenticate peripherals before establishing a connection.](#the-macos-system-must-authenticate-peripherals-before-establishing-a-connection)
-      - [Check Content](#check-content-4)
-    + [The macOS system must be configured with a firmware password to prevent access to single user mode and booting from alternative media.](#the-macos-system-must-be-configured-with-a-firmware-password-to-prevent-access-to-single-user-mode-and-booting-from-alternative-media)
-      - [Check Content](#check-content-5)
-      - [Check Content](#check-content-6)
-- [cat /etc/pam.d/login | grep -i pam_smartcard.so](#cat--etc-pamd-login---grep--i-pam-smartcardso)
-- [login: auth account password session](#login--auth-account-password-session)
-    + [The macOS system must be configured with system log files owned by root and group-owned by wheel or admin.](#the-macos-system-must-be-configured-with-system-log-files-owned-by-root-and-group-owned-by-wheel-or-admin)
-      - [Check Content](#check-content-7)
-    + [The macOS system must be configured with system log files set to mode 640 or less permissive.](#the-macos-system-must-be-configured-with-system-log-files-set-to-mode-640-or-less-permissive)
-      - [Check Content](#check-content-8)
-    + [The macOS system must be configured with the sudoers file configured to authenticate users on a per -tty basis.](#the-macos-system-must-be-configured-with-the-sudoers-file-configured-to-authenticate-users-on-a-per--tty-basis)
-      - [Check Content](#check-content-9)
-    + [The macOS system must be configured to prevent password proximity sharing requests from nearby Apple Devices.](#the-macos-system-must-be-configured-to-prevent-password-proximity-sharing-requests-from-nearby-apple-devices)
-      - [Check Content](#check-content-10)
-    + [The macOS system must be configured to prevent users from erasing all system content and settings.](#the-macos-system-must-be-configured-to-prevent-users-from-erasing-all-system-content-and-settings)
-      - [Check Content](#check-content-11)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
+[TOC]
 
 ### The macOS system must allow only applications that have a valid digital signature to run.
 
