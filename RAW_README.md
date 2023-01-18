@@ -1,21 +1,7 @@
----
-created: 2023-01-18T15:47:49 (UTC -08:00)
-tags: []
-source: file:///Users/sbacha/Downloads/U_Apple_macOS_12_V1R5_STIG/U_Apple_macOS_12_V1R5_Manual_STIG/out.html
-author: 
----
-
 # UNCLASSIFIED
 
-> ## Excerpt
-> UNCLASSIFIED
-
----
 **UNCLASSIFIED**  
 
-![](file:///Users/sbacha/Downloads/U_Apple_macOS_12_V1R5_STIG/U_Apple_macOS_12_V1R5_Manual_STIG/DoD-DISA-logos-as-JPEG.jpg)
-
- 
 
 **Apple macOS 12 (Monterey) Security Technical Implementation Guide**  
 
