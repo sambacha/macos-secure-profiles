@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Token Removal Action</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-000005</string>
+        <key>PayloadType</key>
+        <string>com.apple.security.smartcard</string>
+        <key>PayloadUUID</key>
+        <string>834D0306-2286-4449-8642-4F2C19DD0F78</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>tokenRemovalAction</key>
+        <integer>1</integer>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Disable FDE Password Forwarding</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-000033</string>
+        <key>PayloadType</key>
+        <string>com.apple.loginwindow</string>
+        <key>PayloadUUID</key>
+        <string>F8EC03AD-7BF8-4FAF-9561-935DC88103C1</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DisableFDEAutoLogin</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Check Smart Card Certificate Trust</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-001060</string>
+        <key>PayloadType</key>
+        <string>com.apple.security.smartcard</string>
+        <key>PayloadUUID</key>
+        <string>2C1A5277-BA4D-487D-B50B-FD04B44A4C6A</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>checkCertificateTrust</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Enforce Smart Card Login</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-003020</string>
+        <key>PayloadType</key>
+        <string>com.apple.security.smartcard</string>
+        <key>PayloadUUID</key>
+        <string>E2BB89CD-C3D7-4DC4-A18C-A3245632264F</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>enforceSmartCard</key>
+        <true />
+      </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Enables Mandatory Smart Card Authentication, Smart Card Certificate Checks, and Token Removal Screen Saver Initiation.</string>
+    <key>PayloadDisplayName</key>
+    <string>Smart Card Policy</string>
+    <key>PayloadIdentifier</key>
+    <string>APPL-12.Smart_Card_Policy</string>
+    <key>PayloadOrganization</key>
+    <string>DISA</string>
+    <key>PayloadRemovalDisallowed</key>
+    <true />
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>AA56DA11-493C-4837-8270-6321DCB1D485</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>TargetDeviceType</key>
+    <integer>5</integer>
+    <key>PayloadRemovalDisallowed</key>
+    <true />
+  </dict>
+</plist>

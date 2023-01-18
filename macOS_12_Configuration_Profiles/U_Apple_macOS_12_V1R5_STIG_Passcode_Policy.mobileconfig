@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Max Passcode Attempts and Standoff</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-000022</string>
+        <key>PayloadType</key>
+        <string>com.apple.mobiledevice.passwordpolicy</string>
+        <key>PayloadUUID</key>
+        <string>8A98D2CD-D714-4F62-AA77-E2D2176A8B8D</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>maxFailedAttempts</key>
+        <integer>3</integer>
+        <key>minutesUntilFailedLoginReset</key>
+        <integer>15</integer>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Password Require Alphanumeric</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-003007</string>
+        <key>PayloadType</key>
+        <string>com.apple.mobiledevice.passwordpolicy</string>
+        <key>PayloadUUID</key>
+        <string>F2441C8A-A03D-499B-80C5-E2B621F1FE2C</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>requireAlphanumeric</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Password Maximum Age</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-003008</string>
+        <key>PayloadType</key>
+        <string>com.apple.mobiledevice.passwordpolicy</string>
+        <key>PayloadUUID</key>
+        <string>0617D14A-B3A3-4C4C-8C62-88E7501AE96B</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>maxPINAgeInDays</key>
+        <integer>60</integer>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Password History</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-003009</string>
+        <key>PayloadType</key>
+        <string>com.apple.mobiledevice.passwordpolicy</string>
+        <key>PayloadUUID</key>
+        <string>ABC5A708-280B-4146-A0BA-42A66CDD1B9B</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>pinHistory</key>
+        <integer>5</integer>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Password Minimum Length</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-003010</string>
+        <key>PayloadType</key>
+        <string>com.apple.mobiledevice.passwordpolicy</string>
+        <key>PayloadUUID</key>
+        <string>8660BFF7-4237-4B09-BE1C-68E0AC59799F</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>minLength</key>
+        <integer>15</integer>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Password Minimum Complex Characters</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-003011</string>
+        <key>PayloadType</key>
+        <string>com.apple.mobiledevice.passwordpolicy</string>
+        <key>PayloadUUID</key>
+        <string>D1933FD4-9B91-4C4B-97A4-2EC0715CF832</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>minComplexChars</key>
+        <integer>1</integer>
+		<key>allowSimple</key>
+		<integer>0</integer>
+      </dict>
+    </array>
+    <key>PayloadUUID</key>
+    <string>ED79D45F-2CD7-43D2-8CF8-2CE6C226A89F</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>DISA.MIL</string>
+    <key>PayloadIdentifier</key>
+    <string>AOSX-12.Passcode_Policy</string>
+    <key>PayloadDisplayName</key>
+    <string>Passcode Policy</string>
+    <key>PayloadDescription</key>
+    <string>This payload configures required password options.</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadRemovalDisallowed</key>
+    <true />
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>TargetDeviceType</key>
+    <integer>5</integer>
+  </dict>
+</plist>

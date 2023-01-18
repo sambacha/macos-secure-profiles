@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow AutoUnlock</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-000001</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>4689AD04-A41B-4185-B987-ED69F8945F0C</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowAutoUnlock</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow AirDrop</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002009</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>B2CE4437-CCB1-41F0-AE61-E1F4F0AB3525</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowAirDrop</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow CloudCalendar</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002012</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>A3EF5754-B516-4A63-94ED-9632E20BB44F</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowCloudCalendar</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow Cloud Reminders</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002013</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>F30BC458-23A7-4105-8411-EC26AA071435</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowCloudReminders</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow Cloud Addressbook</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002014</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>3CB1A1C9-F142-4C59-BA97-39A297EA36ED</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowCloudAddressBook</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow Cloud Mail</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002015</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>9F120101-2DB9-4840-B177-A630A2A59396</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowCloudMail</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow Cloud Notes</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002016</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>E8282C29-FD1F-46DE-85C3-7FE42BCF2E13</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowCloudNotes</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow Built-in Camera</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002017</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>B61B8CDB-944C-46B2-A916-6105785A2F41</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowCamera</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow Siri and Dictation</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002020</string>
+        <key>PayloadType</key>
+        <string>com.apple.ironwood.support</string>
+        <key>PayloadUUID</key>
+        <string>B7ECEC91-475C-406F-A381-F6B32DFCCE21</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>Assistant Allowed</key>
+        <false />
+        <key>Ironwood Allowed</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow Diagnostic Submissions</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002021</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>9BAB33AF-423B-41F7-8126-AED45709704B</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowDiagnosticSubmission</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Disable AppleID Preference Pane</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002031</string>
+        <key>PayloadType</key>
+        <string>com.apple.systempreferences</string>
+        <key>PayloadUUID</key>
+        <string>2127A679-A5A5-46D8-B390-7D132FB25AD3</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DisabledPreferencePanes</key>
+        <array>
+          <string>com.apple.preferences.AppleIDPrefPane</string>
+        </array>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Disable and Hide Internet Accounts Preference Pane</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002032</string>
+        <key>PayloadType</key>
+        <string>com.apple.systempreferences</string>
+        <key>PayloadUUID</key>
+        <string>49F19D32-0856-459B-9F21-09AD7B020EF2</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DisabledPreferencePanes</key>
+        <array>
+          <string>com.apple.preferences.internetaccounts</string>
+        </array>
+        <key>HiddenPreferencePanes</key>
+        <array>
+          <string>com.apple.preferences.internetaccounts</string>
+        </array>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Skip iCloud Setup</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002035</string>
+        <key>PayloadType</key>
+        <string>com.apple.SetupAssistant.managed</string>
+        <key>PayloadUUID</key>
+        <string>BD580733-08D2-41EE-BDA5-AC7632B464FF</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>SkipCloudSetup</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Skip Privacy Setup</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002036</string>
+        <key>PayloadType</key>
+        <string>com.apple.SetupAssistant.managed</string>
+        <key>PayloadUUID</key>
+        <string>5A84F049-FCCA-445A-9A5A-4122B2A213B5</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>SkipPrivacySetup</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Skip Cloud Storage Setup</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002037</string>
+        <key>PayloadType</key>
+        <string>com.apple.SetupAssistant.managed</string>
+        <key>PayloadUUID</key>
+        <string>6752B3F3-5EE1-4D32-B680-EA71E71BDB4D</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>SkipiCloudStorageSetup</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Skip Siri Setup</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002039</string>
+        <key>PayloadType</key>
+        <string>com.apple.SetupAssistant.managed</string>
+        <key>PayloadUUID</key>
+        <string>691C7386-F1A5-40EF-A370-5B2399417870</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>SkipSiriSetup</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow iCloud Keychain Sync</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002040</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>C82365FC-FEE6-4505-B46C-F7BBB786AB1C</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowCloudKeychainSync</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow iCloud Document Sync</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002041</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>3FE80A63-6E80-4F7B-843A-95780ABBD141</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowCloudDocumentSync</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow iCloud Bookmarks</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002042</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>234B0738-999B-4777-A1BD-1EC967D83C9D</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowCloudBookmarks</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow iCloud Photo Library</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002043</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>E056E875-ECDB-4E00-92D0-B22EAC6C3871</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowCloudPhotoLibrary</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Disable and Hide Touch ID Preference Pane</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002051</string>
+        <key>PayloadType</key>
+        <string>com.apple.systempreferences</string>
+        <key>PayloadUUID</key>
+        <string>161A7FC5-040E-4EDE-BDF8-60D15ED43B8E</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DisabledPreferencePanes</key>
+        <array>
+          <string>com.apple.preferences.password</string>
+        </array>
+        <key>HiddenPreferencePanes</key>
+        <array>
+          <string>com.apple.preferences.password</string>
+        </array>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Disable and Hide Wallet Preference Pane</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002052</string>
+        <key>PayloadType</key>
+        <string>com.apple.systempreferences</string>
+        <key>PayloadUUID</key>
+        <string>9CBC0476-7BA0-4CA2-B7DE-B179B63F5B63</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DisabledPreferencePanes</key>
+        <array>
+          <string>com.apple.preferences.wallet</string>
+        </array>
+        <key>HiddenPreferencePanes</key>
+        <array>
+          <string>com.apple.preferences.wallet</string>
+        </array>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Disable and Siri Preference Pane</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002053</string>
+        <key>PayloadType</key>
+        <string>com.apple.systempreferences</string>
+        <key>PayloadUUID</key>
+        <string>40F25629-3B81-4755-94FA-BB8B1FB7B339</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DisabledPreferencePanes</key>
+        <array>
+          <string>com.apple.preference.speech</string>
+        </array>
+        <key>HiddenPreferencePanes</key>
+        <array>
+          <string>com.apple.preference.speech</string>
+        </array>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Enable Gatekeeper, Identified Developers Only</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002060</string>
+        <key>PayloadType</key>
+        <string>com.apple.systempolicy.control</string>
+        <key>PayloadUUID</key>
+        <string>71CA3FD4-6E59-4B1E-8907-B3CA13F02DB4</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>AllowIdentifiedDevelopers</key>
+        <true />
+        <key>EnableAssessment</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Disable and Hide Bluetooth Preference Pane</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002062</string>
+        <key>PayloadType</key>
+        <string>com.apple.systempreferences</string>
+        <key>PayloadUUID</key>
+        <string>FF703B84-A6B5-4F0E-8CDE-8DACBDA2B94B</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DisabledPreferencePanes</key>
+        <array>
+          <string>com.apple.preferences.Bluetooth</string>
+        </array>
+        <key>HiddenPreferencePanes</key>
+        <array>
+          <string>com.apple.preferences.Bluetooth</string>
+        </array>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Automatically Update MRT</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002070</string>
+        <key>PayloadType</key>
+        <string>com.apple.SoftwareUpdate</string>
+        <key>PayloadUUID</key>
+        <string>9637E439-133F-4F51-90A1-20C8159592E8</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>ConfigDataInstall</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Firewall</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-005050</string>
+        <key>PayloadType</key>
+        <string>com.apple.security.firewall</string>
+        <key>PayloadUUID</key>
+        <string>3E66D9A6-2B30-4822-878B-F2047F2DC73A</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>EnableFirewall</key>
+        <true />
+        <key>EnableStealthMode</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allowed Media</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-005051</string>
+        <key>PayloadType</key>
+        <string>com.apple.systemuiserver</string>
+        <key>PayloadUUID</key>
+        <string>8B23F4E0-3660-4E20-A5A5-382D48503F29</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>mount-controls</key>
+        <dict>
+          <key>bd</key>
+          <array>
+            <string>read-only</string>
+          </array>
+          <key>blankbd</key>
+          <array>
+            <string>deny</string>
+            <string>eject</string>
+          </array>
+          <key>blankcd</key>
+          <array>
+            <string>deny</string>
+            <string>eject</string>
+          </array>
+          <key>blankdvd</key>
+          <array>
+            <string>deny</string>
+            <string>eject</string>
+          </array>
+          <key>cd</key>
+          <array>
+            <string>read-only</string>
+          </array>
+          <key>disk-image</key>
+          <array>
+            <string>read-only</string>
+          </array>
+          <key>dvd</key>
+          <array>
+            <string>read-only</string>
+          </array>
+          <key>dvdram</key>
+          <array>
+            <string>deny</string>
+            <string>eject</string>
+          </array>
+          <key>harddisk-external</key>
+          <array>
+            <string>deny</string>
+            <string>eject</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Disable Disc Burning</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-005053</string>
+        <key>PayloadType</key>
+        <string>com.apple.DiscRecording</string>
+        <key>PayloadUUID</key>
+        <string>79E367F7-F0AF-434A-B457-863CB2596E4E</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>BurnSupport</key>
+        <string>off</string>
+        <key>PayloadDescription</key>
+        <string>Configures Disc Burning settings</string>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Skip Touch ID Setup</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-005054</string>
+        <key>PayloadType</key>
+        <string>com.apple.SetupAssistant.managed</string>
+        <key>PayloadUUID</key>
+        <string>2AAD071C-EB61-47B9-A8E3-5860DF625863</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>SkipTouchIDSetup</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Skip ScreenTime Setup</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-005055</string>
+        <key>PayloadType</key>
+        <string>com.apple.SetupAssistant.managed</string>
+        <key>PayloadUUID</key>
+        <string>C8225893-E6C2-4EDE-92B6-63591EF2CBC3</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>SkipScreenTime</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Skip UnlockwithWatch Setup</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-005056</string>
+        <key>PayloadType</key>
+        <string>com.apple.SetupAssistant.managed</string>
+        <key>PayloadUUID</key>
+        <string>9BF90F2A-49C8-49C3-9365-C5022483249E</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>SkipUnlockWithWatch</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow Activity Continuation</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-005058</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>48C1B943-D813-4F47-AB1F-7B4F8E473B61</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowActivityContinuation</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow Password Proximity Requests</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-005060</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>729B6B39-9FBA-4069-8B7C-AA536763AE87</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowPasswordProximityRequests</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Allow Erase Content and Settings</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-005061</string>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadUUID</key>
+        <string>7CB757CB-76B8-4D66-9034-267AB1E4E0E7</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>allowEraseContentAndSettings</key>
+        <false />
+      </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>This payload disables iCloud, System Preference Panes, removable writable media, and certain account setup options. Version 2</string>
+    <key>PayloadDisplayName</key>
+    <string>Restrictions Policy</string>
+    <key>PayloadIdentifier</key>
+    <string>AOSX-12.Restrictions_Policy</string>
+    <key>PayloadOrganization</key>
+    <string>DISA.MIL</string>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>85CDFAF1-D5D4-4502-B2D7-F8B109775159</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>TargetDeviceType</key>
+    <integer>5</integer>
+    <key>PayloadRemovalAllowed</key>
+    <true />
+  </dict>
+</plist>

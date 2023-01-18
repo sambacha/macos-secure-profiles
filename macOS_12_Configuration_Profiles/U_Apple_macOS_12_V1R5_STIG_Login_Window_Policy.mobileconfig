@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Screensaver Unlock</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-000002</string>
+        <key>PayloadType</key>
+        <string>com.apple.screensaver</string>
+        <key>PayloadUUID</key>
+        <string>B7BDC4E9-3BA7-4462-881F-17849D6C8AAD</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>askForPassword</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Screensaver Password Delay</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-000003</string>
+        <key>PayloadType</key>
+        <string>com.apple.screensaver</string>
+        <key>PayloadUUID</key>
+        <string>91EBAB93-A115-4577-8B1F-F0E1D228334C</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>askForPasswordDelay</key>
+        <integer>5</integer>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Screensaver Idle Time</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-000004</string>
+        <key>PayloadType</key>
+        <string>com.apple.screensaver</string>
+        <key>PayloadUUID</key>
+        <string>9E5BDA74-E6E5-421B-8E62-1B6CD3CFE516</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>loginWindowIdleTime</key>
+        <integer>900</integer>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Screensaver Module Path</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-000006</string>
+        <key>PayloadType</key>
+        <string>com.apple.screensaver</string>
+        <key>PayloadUUID</key>
+        <string>79539BC3-056A-443A-B213-F24B44B9060A</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>loginWindowModulePath</key>
+        <string>/System/Library/Screen Savers/FloatingMessage.saver</string>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Disable Guest Account</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002063</string>
+        <key>PayloadType</key>
+        <string>com.apple.MCX</string>
+        <key>PayloadUUID</key>
+        <string>9483D84D-5DC1-4C81-BDB9-93E67CE2ECEE</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DisableGuestAccount</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Disable Auto-Login</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-002066</string>
+        <key>PayloadType</key>
+        <string>com.apple.loginwindow</string>
+        <key>PayloadUUID</key>
+        <string>4EF52FCB-8F00-4C12-AF40-4B94C887208B</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>com.apple.login.mcx.DisableAutoLoginClient</key>
+        <true />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Disable Password Hint</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-003012</string>
+        <key>PayloadType</key>
+        <string>com.apple.loginwindow</string>
+        <key>PayloadUUID</key>
+        <string>8A8FBAC2-9DB3-4F22-AB8D-D1BF6D3E2E8A</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>RetriesUntilHint</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Show Full Login Name</string>
+        <key>PayloadIdentifier</key>
+        <string>mil.DISA.APPL-12-005052</string>
+        <key>PayloadType</key>
+        <string>com.apple.loginwindow</string>
+        <key>PayloadUUID</key>
+        <string>E492E179-BDF4-4DB9-8595-308F473A74BC</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>SHOWFULLNAME</key>
+        <true />
+      </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Login Window Policy</string>
+    <key>PayloadDescription</key>
+    <string>This payload disables the Guest Account, Auto Logon, Password Hints, and it forces the display of a username field.</string>
+    <key>PayloadIdentifier</key>
+    <string>mil.DISA.APPL-12.Login_Window_Policy</string>
+    <key>PayloadOrganization</key>
+    <string>DISA.MIL</string>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>8761C932-FA9D-4EBF-AC77-979499A80695</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>TargetDeviceType</key>
+    <integer>5</integer>
+    <key>PayloadRemovalDisallowed</key>
+    <true />
+  </dict>
+</plist>
