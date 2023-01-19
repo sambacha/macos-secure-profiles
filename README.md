@@ -2,6 +2,8 @@
 
 [TOC]
 
+> https://docs.google.com/spreadsheets/d/e/2PACX-1vQWtGb4Ul56y1RWjpqWFhSX1Lmp2j8w8aHdJl8-fQhzAEalyuamefbCytQ8POe0XMseYlwVJn4Vq614/pubhtml
+
 ### The macOS system must allow only applications that have a valid digital signature to run.
 
 
